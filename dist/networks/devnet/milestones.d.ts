@@ -26,13 +26,9 @@ declare const _exports: ({
             "htlcRefund": number;
         };
     };
-    "ignoreInvalidSecondSignatureField": boolean;
-    "ignoreExpiredTransactions": boolean;
     "vendorFieldLength": number;
     "multiPaymentLimit": number;
-    "p2p"?: undefined;
     "aip11"?: undefined;
-    "htlcEnabled"?: undefined;
 } | {
     "height": number;
     "reward": number;
@@ -41,13 +37,9 @@ declare const _exports: ({
     "block"?: undefined;
     "epoch"?: undefined;
     "fees"?: undefined;
-    "ignoreInvalidSecondSignatureField"?: undefined;
-    "ignoreExpiredTransactions"?: undefined;
     "vendorFieldLength"?: undefined;
     "multiPaymentLimit"?: undefined;
-    "p2p"?: undefined;
     "aip11"?: undefined;
-    "htlcEnabled"?: undefined;
 } | {
     "height": number;
     "block": {
@@ -62,28 +54,9 @@ declare const _exports: ({
     "blocktime"?: undefined;
     "epoch"?: undefined;
     "fees"?: undefined;
-    "ignoreInvalidSecondSignatureField"?: undefined;
-    "ignoreExpiredTransactions"?: undefined;
     "vendorFieldLength"?: undefined;
     "multiPaymentLimit"?: undefined;
-    "p2p"?: undefined;
     "aip11"?: undefined;
-    "htlcEnabled"?: undefined;
-} | {
-    "height": number;
-    "ignoreInvalidSecondSignatureField": boolean;
-    "reward"?: undefined;
-    "activeDelegates"?: undefined;
-    "blocktime"?: undefined;
-    "block"?: undefined;
-    "epoch"?: undefined;
-    "fees"?: undefined;
-    "ignoreExpiredTransactions"?: undefined;
-    "vendorFieldLength"?: undefined;
-    "multiPaymentLimit"?: undefined;
-    "p2p"?: undefined;
-    "aip11"?: undefined;
-    "htlcEnabled"?: undefined;
 } | {
     "height": number;
     "vendorFieldLength": number;
@@ -93,12 +66,8 @@ declare const _exports: ({
     "block"?: undefined;
     "epoch"?: undefined;
     "fees"?: undefined;
-    "ignoreInvalidSecondSignatureField"?: undefined;
-    "ignoreExpiredTransactions"?: undefined;
     "multiPaymentLimit"?: undefined;
-    "p2p"?: undefined;
     "aip11"?: undefined;
-    "htlcEnabled"?: undefined;
 } | {
     "height": number;
     "block": {
@@ -113,28 +82,9 @@ declare const _exports: ({
     "blocktime"?: undefined;
     "epoch"?: undefined;
     "fees"?: undefined;
-    "ignoreInvalidSecondSignatureField"?: undefined;
-    "ignoreExpiredTransactions"?: undefined;
     "vendorFieldLength"?: undefined;
     "multiPaymentLimit"?: undefined;
-    "p2p"?: undefined;
     "aip11"?: undefined;
-    "htlcEnabled"?: undefined;
-} | {
-    "height": number;
-    "ignoreExpiredTransactions": boolean;
-    "reward"?: undefined;
-    "activeDelegates"?: undefined;
-    "blocktime"?: undefined;
-    "block"?: undefined;
-    "epoch"?: undefined;
-    "fees"?: undefined;
-    "ignoreInvalidSecondSignatureField"?: undefined;
-    "vendorFieldLength"?: undefined;
-    "multiPaymentLimit"?: undefined;
-    "p2p"?: undefined;
-    "aip11"?: undefined;
-    "htlcEnabled"?: undefined;
 } | {
     "height": number;
     "block": {
@@ -149,45 +99,18 @@ declare const _exports: ({
     "blocktime"?: undefined;
     "epoch"?: undefined;
     "fees"?: undefined;
-    "ignoreInvalidSecondSignatureField"?: undefined;
-    "ignoreExpiredTransactions"?: undefined;
-    "vendorFieldLength"?: undefined;
-    "multiPaymentLimit"?: undefined;
-    "p2p"?: undefined;
-    "aip11"?: undefined;
-    "htlcEnabled"?: undefined;
-} | {
-    "height": number;
-    "p2p": {
-        "minimumVersions": string[];
-    };
-    "reward"?: undefined;
-    "activeDelegates"?: undefined;
-    "blocktime"?: undefined;
-    "block"?: undefined;
-    "epoch"?: undefined;
-    "fees"?: undefined;
-    "ignoreInvalidSecondSignatureField"?: undefined;
-    "ignoreExpiredTransactions"?: undefined;
     "vendorFieldLength"?: undefined;
     "multiPaymentLimit"?: undefined;
     "aip11"?: undefined;
-    "htlcEnabled"?: undefined;
 } | {
     "height": number;
     "aip11": boolean;
-    "htlcEnabled": boolean;
-    "p2p": {
-        "minimumVersions": string[];
-    };
     "reward"?: undefined;
     "activeDelegates"?: undefined;
     "blocktime"?: undefined;
     "block"?: undefined;
     "epoch"?: undefined;
     "fees"?: undefined;
-    "ignoreInvalidSecondSignatureField"?: undefined;
-    "ignoreExpiredTransactions"?: undefined;
     "vendorFieldLength"?: undefined;
     "multiPaymentLimit"?: undefined;
 })[];
